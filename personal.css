@@ -1,0 +1,486 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: rgb(245, 239, 255);
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(205, 193, 255);
+}
+
+.Windy {
+    font-size: 30px;
+    color: rgb(138, 126, 214);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 18px;
+    color:rgb(138, 126, 214) ;
+    text-decoration: none;
+    font-weight: 500px;
+    margin-left: 35px;
+}
+.navbar a:hover ,
+.navbar a:active {
+    color: rgb(229, 217, 242);
+}
+
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home img{
+    width: 55%;
+    border-radius: 40%;
+    margin-left: 100px;
+    margin-top: 70px;
+    background-color:rgb(205, 193, 255);
+    padding: 10px;
+    box-shadow: 0 8px 15px rgb(81, 76, 110);
+}
+
+.home-content {
+    max-width: 600px;
+}
+
+h1 {
+    color: rgb(81, 76, 110);
+    font-size: 46px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(138, 126, 214);
+}
+
+p {
+    color: rgb(81, 76, 110);
+   font-size: 16px; 
+}
+
+.btn-box {
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+}
+
+.btn-box a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background-color: rgb(229, 217, 242);
+    border: 2px solid rgb(81, 76, 110);
+    border-radius: 100px;
+    font-size: 18px;
+    color: rgb(81, 76, 110);
+    text-decoration: none;
+    font-weight: 600;
+}
+.btn-box a:hover ,
+.btn-box a:active {
+    color: rgb(255, 255, 255) ;
+}
+.home-sci {
+    position: absolute;
+    margin-top: 5px;
+    bottom: 40px;
+    width: 170px;
+   
+}
+
+.home-sci a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    color: rgb(81, 76, 110);
+    border: 2px solid rgb(81, 76, 110);
+    border-radius: 50%;
+}
+.home-sci a:hover{
+    background: rgb(250, 250, 250);
+}
+
+footer {
+        padding: 10px;
+        background-color: rgb(205, 193, 255);
+        color: whitesmoke;
+        margin-left: 0%;
+        margin-right: 0%;
+        text-align: center;
+        font-size: 21px;
+        position: fixed;
+        bottom: 0%;
+        width: 100%;
+    }
+
+.homeabout {
+    align-content:center;
+    padding: 0px 20px;
+    gap: 5rem;
+    margin: 15px;
+    margin-top: 60px;
+}
+
+.paragraft {
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+}
+
+.about-p {
+  box-shadow: 0 8px 15px rgb(81, 76, 110);
+  padding: 15px;
+  background-color: rgb(229, 217, 242);
+  border-radius: 15px;
+  color: rgb(138, 126, 214);
+  margin-top: 15px;
+  font-style: italic;
+}
+
+.about-p h3{
+    color: rgb(138, 126, 214);
+}
+
+.school {
+   box-shadow: 0 8px 15px rgb(81, 76, 110);
+   padding: 10px;
+   background-color: rgb(229, 217, 242);
+   border-radius: 15px;
+   margin-top: 25px;
+   font-style: italic;
+}
+
+.school {
+    color: rgb(138, 126, 214);
+}
+
+.pendidikan{ 
+    margin-top: 25px;
+    margin-bottom: 5%;
+    justify-content: center;
+    display: flex;
+    gap: 2rem;
+}
+
+.pendidikan h3{
+    color:rgb(138, 126, 214);
+    text-align: center;
+}
+
+.sd{
+    box-shadow: 0 13px 25px rgb(81, 76, 110);
+    padding: 15px;
+    background-color: rgb(229, 217, 242);
+    border-radius: 25px;
+    justify-content: center;
+    font-style: italic;
+}
+
+.citapen_01{
+    padding-top: 15%;
+    text-align: center;
+}
+
+.smp{
+    box-shadow: 0 13px 25px rgb(81, 76, 110);
+    padding: 15px;
+    background-color: rgb(229, 217, 242);
+    border-radius: 25px;
+    justify-content: center;
+    font-style: italic;
+}
+
+.pgri_01{
+    padding-top: 10%;
+    text-align: center;
+}
+
+.smk{
+    box-shadow: 0 13px 25px rgb(81, 76, 110);
+    padding: 15px;
+    background-color: rgb(229, 217, 242);
+    border-radius: 25px;
+    justify-content: center;
+    font-style: italic;
+    text-align: center;
+}
+
+.portofolio{
+     
+    display: flex;
+    justify-content: center;
+    margin: 20px 200px;
+    gap: 5rem;
+}
+
+.portofolio h3{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color:rgb(138, 126, 214);
+    text-align: center;
+}
+
+.k3{
+    margin-top: 70px;
+    box-shadow: 0 5px 20px rgb(81, 76, 110);
+    background-color: rgb(229, 217, 242);
+    border-radius: 20px;
+    font-style: italic;
+    transition: 2 ease-in-out;
+}
+
+.k3:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 4px 25px rgb(81, 76, 110);
+}
+
+.k3 img{
+    width: 90%;
+    padding: 15px;
+    margin-top: 50px;
+    margin: auto;
+    display: block;
+}
+
+.dicoding{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 20px rgb(81, 76, 110);
+    background-color: rgb(229, 217, 242);
+    border-radius: 20px;
+    font-style: italic;
+    transition: 2 ease-in-out;
+}
+
+.dicoding:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 4px 25px rgb(81, 76, 110);
+}
+
+.dicoding img{
+    width: 90%;
+    padding: 15px;
+    margin-top: 50px;
+    margin: auto;
+    display: block;
+}
+
+.imb1{
+    margin-top: 70px;
+    box-shadow: 0 5px 20px rgb(81, 76, 110);
+    background-color: rgb(229, 217, 242);
+    border-radius: 20px;
+    font-style: italic;
+    transition:  2 ease-in-out
+}
+
+.imb1:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 4px 25px rgb(81, 76, 110);
+}
+
+.imb1 img{
+    width: 90%;
+    padding: 15px;
+    margin-top: 50px;
+    margin: auto;
+    display: block;
+}
+
+.ibm2{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 20px rgb(81, 76, 110);
+    background-color: rgb(229, 217, 242);
+    border-radius: 20px;
+    font-style: italic;
+    transition: 2 ease-in-out;
+}
+
+.ibm2:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 4px 25px rgb(81, 76, 110);
+}
+
+.ibm2 img{
+    width: 90%;
+    padding: 15px;
+    margin-top: 50px;
+    margin: auto;
+    display: block;
+}
+
+.sumberbelajar{
+    margin-top: 100px;
+    margin: 90px;
+    text-align: center;
+    font-style: italic;
+}
+
+.sumberbelajar h3{
+    color: rgb(138, 126, 214);
+}
+
+.sumber{
+    box-shadow: 0 4px 25px rgb(81, 76, 110);
+    background-color:rgb(229, 217, 242);
+    padding: 30px;
+    border-radius: 35px;
+    margin:0 10%;
+}
+
+.sumber img{
+    width: 100%;
+    margin-top: 5px;
+}
+
+.sumber h2{
+    font-size: 30px ;
+    color:rgb(138, 126, 214) ;
+}
+
+.Belajar{
+    box-shadow: 0 4px 25px rgb(81, 76, 110);
+    background-color: rgb(229, 217, 242);
+    padding: 30px;
+    border-radius: 35px;
+    margin:0 10%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-style: italic;
+}
+.Belajar img{
+    width: 100%;
+    margin-top: 5px;
+}
+
+.artikel{
+    width: 35%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 20px rgb(81, 76, 110);
+    background-color: rgb(229, 217, 242);
+    border-radius: 20px;
+    font-style: italic;
+    margin: auto; 
+    display: block;
+    margin-bottom: 5%;
+    padding: 5px;
+    transition: 2 ease-in-out;
+}
+
+.artikel:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 4px 25px rgb(81, 76, 110);
+}
+
+.artikel img{
+    width: 90%;
+    padding: 15px;
+    margin-top: 50px;
+    margin: auto;
+    display: block;
+}
+
+.artikel h4{
+    text-align: center;
+    color:rgb(138, 126, 214) ;
+    font-style: italic;
+    
+}
+
+.artikel a{
+    text-decoration: none;
+    font-style: italic;
+}
+
+.artikel_ {
+    margin: 80px 100px;
+    font-style: italic;
+}
+
+.berbicarakasar h3{
+    background-color: rgb(229, 217, 242);
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 25px rgb(81, 76, 110);
+    margin: 5px;
+    text-align: center;
+    font-style: italic;
+}
+
+.berbicarakasar p{
+    background-color: rgb(229, 217, 242);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 25px rgb(81, 76, 110);
+    margin: 5px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.berbicarakasar nav{
+    background-color: rgb(229, 217, 242);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 25px rgb(81, 76, 110);
+    color: rgb(81, 76, 110);
+    font-size: 18px;
+    font-style: italic;
+}
+
+.faktor p{
+    margin-top: 25px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.mengatasi p{
+    margin-top: 25px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.mengatasi img{
+    width: 50%;
+    padding: 15px;
+    margin-top: 50px;
+    margin: auto;
+    display: block;
+    background-color: rgb(229, 217, 242);
+    margin-top: 30px;
+    padding: 25px;
+    border-radius: 25px;
+    box-shadow: 0 4px 25px rgb(81, 76, 110);
+}
+
+.poster{
+    display: flex;
+}
